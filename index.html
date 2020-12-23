@@ -1,0 +1,120 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" type="img/x-icon" href="assets/banner_image.png">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+  <title>Fahd Labba</title>
+</head>
+<body>
+  <div class="loading-screen">
+    <div class="loading">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+  <nav class="site-nav grid">
+    <h1>Fahd Labba</h1>
+    <ul>
+      <li id="l1"><a href="#portfolio">Projects</a></li>
+      <li id="l1"><a href="#skills">Skills</a></li>
+      <li id="l1"><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <section id="welcome" class="grid">
+    <div class="welcome-text">
+      <h2>Full Stack Web Developer<br />& JavaScript Developer</h2>
+      <p class="leading">Welcome to my site. Here I will show you some of my skills and projects. Hope you enjoy.</p>
+      <a href="#portfolio" class="button">View my work</a>
+    </div>
+    <div class="welcome-img">
+      <img src="assets/banner_image.png" alt="pic of planet">
+    </div>
+  </section>
+  <section id="portfolio">
+    <h3>Some of my Projects</h3>
+    <div class="projects grid">
+      <a id="m1" href="https://fahdlabba.github.io">
+        <img id="store" src="assets/store.PNG" alt="space race image">
+        <h4>Cartel Store</h4>
+      </a>
+      <a id="m1" href="#">
+        <img id="store" src="assets/web.jpeg" alt="planet boy image">
+        <h4>Web Developeur Guide(soon..) </h4>
+      </a>
+      <a id="m1" href="#">
+        <img id="store" src="assets/html5.png" alt="captain cosmo image">
+        <h4>HTML5&CSS3 Quiz(Soon..)</h4>
+      </a>
+      <!-- <a href="#">
+        <img src="assets/project_3.png" alt="captain cosmo image">
+        <h4>Captain Cosmo Blog 2</h4>
+      </a> -->
+    </div>
+  </section>
+  <section id="skills">
+    <h3>Things I Can Do</h3>
+    <ul id="l2" class="grid">
+      <li id="l2">
+        <img src="assets/Java.png" alt="comet">
+        <h4>JavaScript</h4>
+      </li>
+      <li id="l2">
+        <img src="assets/SQL.png" alt="comet">
+        <h4>SQL</h4>
+      </li>
+      <li id="l2">
+        <img src="assets/unnamed.png" alt="comet">
+        <h4>Python</h4>
+      </li>
+      <li id="l2">
+        <img id="jq" src="assets/jquery-2.svg" alt="comet">
+        <h4>jQuery</h4>
+      </li>
+      <li id="l2">
+        <img src="assets/html5.png" alt="comet">
+        <h4>HTML5&CSS3</h4>
+      </li>
+      <li id="l2">
+        <img src="assets/boot.png" alt="comet">
+        <h4>Bootstrap</h4>
+      </li>
+      <li id="l2">
+        <img src="assets/adobe.jpg" alt="comet">
+        <h4>Adobe Illustrator<br />Adobe Photoshop<br />Adobe Lightroom</h4>
+      </li>
+    </ul>
+    <!--<p class="leading">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fringilla lacus diam. Mauris fringilla consectetur nibh, sit amet tempus augue.</p>-->
+  </section>
+  <section id="contact">
+    <h3>Get In Touch</h3>
+    <!--<p class="leading"></p>-->
+    <form onsubmit="return validate()" method="POST" >
+      <input id="ip" type="text" placeholder='NAME' required>
+      <input id="ip" type="email" placeholder='EMAIL' required>
+      <textarea id="ip" placeholder='YOUR MESSAGE' required></textarea>
+      <button class="button">Send Flare</button>
+    </form>
+  </section>
+  <footer>
+    <div class="grid">
+      <p class="copyright">Copyright 2020 Fahd Labba</p>
+      <ul class="social">
+        <li id="sc"><a href="https://www.facebook.com/profile.php?id=100027275971238"><img src="assets/icon_fb.svg" alt="facebook"></a></li>
+        <li id="sc"><a href="https://twitter.com/home"><img src="assets/icon_tw.svg" alt="twitter"></a></li>
+        <li id="sc"><a href="https://www.instagram.com/fahd__labba/?hl=fr"><img src="assets/Instagram_icon.png" alt="instagram"></a></li>
+      </ul>
+    </div>
+  </footer>
+<script type="text/javascript" src="index.js"></script>
+<script>
+  $(window).on("load",function(){
+      $(".loading-screen").fadeOut(2000);
+  });
+</script>
+</body>
+</html>
