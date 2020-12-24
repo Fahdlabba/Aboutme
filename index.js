@@ -4,7 +4,7 @@ function validate(){
         alert("Enter Votre Date");
         return false
     }
-    alert("Thank's for ur Message");
+    alert("Thank's for ur Support");
     return true
 
 }
