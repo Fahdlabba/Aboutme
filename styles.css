@@ -206,6 +206,9 @@ footer li{
 footer img{
   width: 20px;
 }
+.ht{
+  width: 100px;
+}
 
 
 /* small tablet styles */
@@ -463,4 +466,7 @@ footer img{
 }
 #m3{
   border-radius: 4px;
+}
+.ht{
+  width:140px;
 }
