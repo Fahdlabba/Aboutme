@@ -462,8 +462,7 @@ footer img{
   border-radius: 15%;
 }
 #sc:hover{
-  margin: 0px 15px 0px 20px;
-  transition: .3s linear;
+  transform: scale(.9);
 }
 #m3{
   border-radius: 4px;
